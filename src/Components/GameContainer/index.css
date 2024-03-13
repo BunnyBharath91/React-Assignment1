@@ -1,0 +1,97 @@
+.game-container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  padding: 45px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+.score-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  border: solid 2px white;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+.main-heading {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0px;
+}
+.game-elements-container {
+  padding-left: 0px;
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.game-element {
+  list-style-type: none;
+  margin: 4px;
+}
+.score-card {
+  width: 120px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+}
+.score-heading {
+  font-size: 14px;
+  margin: 0px;
+}
+.score {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.main-container {
+  width: 80%;
+}
+.popup-button {
+  background-color: white;
+  font-size: 14px;
+  padding: 10px 14px;
+  font-family: 'Bree Serif';
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.popup-container {
+  width: 80vw;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+}
+.close-icon {
+  margin-left: auto;
+}
+.rules-image {
+  width: 80%;
+  height: 90%;
+}
+.rules-button {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-left: auto;
+  margin-top: auto;
+  cursor: pointer;
+  font-family: inherit;
+}
